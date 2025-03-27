@@ -3,6 +3,6 @@ import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  // base: "/loyaltycare/", // Set base path similar to --base-href in Angular
+  base: "/loyaltycare/",
   plugins: [tailwindcss(), react()],
 });
